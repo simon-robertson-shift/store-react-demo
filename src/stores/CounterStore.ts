@@ -1,5 +1,5 @@
-import type { ReactiveActionsFactory, ReactiveStateFactory } from '@nomemo/store/types'
-import { createReactiveStore } from '@nomemo/store'
+import type { StoreActionsFactory, StoreStateFactory } from '@nomemo/store/types'
+import { createStore } from '@nomemo/store'
 
 // Declare actions
 type Actions = {
@@ -12,7 +12,7 @@ type State = {
 }
 
 // Define actions
-const createActions: ReactiveActionsFactory<Actions, State> = ({ getState, updateState }) => {
+const createActions: StoreActionsFactory<Actions, State> = ({ getState, updateState }) => {
     return {
         increase: () => {
             const { count } = getState()
@@ -23,11 +23,11 @@ const createActions: ReactiveActionsFactory<Actions, State> = ({ getState, updat
 }
 
 // Define state
-const createState: ReactiveStateFactory<State> = () => {
+const createState: StoreStateFactory<State> = () => {
     return {
         count: 0
     }
 }
 
 // Create the reactive store
-export default createReactiveStore(createActions, createState)
+export default createStore(createActions, createState)
