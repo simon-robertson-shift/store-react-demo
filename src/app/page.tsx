@@ -1,6 +1,6 @@
 'use client'
 
-import { useReactiveState } from '@simon-robertson-online/reactive-react'
+import { useReactiveState } from '@nomemo/reactive-react'
 
 import CounterStore from 'app/stores/CounterStore'
 import css from './page.module.css'

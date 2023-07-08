@@ -9,7 +9,7 @@
         "lint": "next lint"
     },
     "dependencies": {
-        "@simon-robertson-online/reactive-react": "^0.0.2",
+        "@nomemo/reactive-react": "^0.0.2",
         "@types/node": "^20.4.0",
         "@types/react": "^18.2.14",
         "@types/react-dom": "^18.2.6",

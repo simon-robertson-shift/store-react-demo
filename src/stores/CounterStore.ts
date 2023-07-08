@@ -1,5 +1,5 @@
-import type { ReactiveActionsFactory, ReactiveStateFactory } from '@simon-robertson-online/reactive/types'
-import { createReactiveStore } from '@simon-robertson-online/reactive'
+import type { ReactiveActionsFactory, ReactiveStateFactory } from '@nomemo/reactive/types'
+import { createReactiveStore } from '@nomemo/reactive'
 
 // Declare actions
 type Actions = {
