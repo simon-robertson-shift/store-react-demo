@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-    title: 'Reactive - React Demo'
+    title: 'Store/Style - React Demo'
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
