@@ -1,6 +1,6 @@
 {
-    "name": "reactive-react-demo",
-    "version": "0.0.1",
+    "name": "store-react-demo",
+    "version": "0.0.2",
     "private": true,
     "scripts": {
         "dev": "next dev",
@@ -9,7 +9,7 @@
         "lint": "next lint"
     },
     "dependencies": {
-        "@nomemo/reactive-react": "^0.0.2",
+        "@nomemo/store-react": "^0.0.3",
         "@types/node": "^20.4.0",
         "@types/react": "^18.2.14",
         "@types/react-dom": "^18.2.6",

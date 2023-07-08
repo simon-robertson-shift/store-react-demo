@@ -1,5 +1,5 @@
-import type { ReactiveActionsFactory, ReactiveStateFactory } from '@nomemo/reactive/types'
-import { createReactiveStore } from '@nomemo/reactive'
+import type { ReactiveActionsFactory, ReactiveStateFactory } from '@nomemo/store/types'
+import { createReactiveStore } from '@nomemo/store'
 
 // Declare actions
 type Actions = {
